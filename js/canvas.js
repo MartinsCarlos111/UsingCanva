@@ -18,8 +18,18 @@ ctx.lineTo(1300, 800);
 ctx.fill();
 ctx.stroke();
 
+//Montanha 3
+ctx.fillStyle = "blue";
+ctx.beginPath();
+ctx.moveTo(750, 670);
+ctx.lineTo(900, 400);
+ctx.lineTo(1000, 670)
+ctx.lineTo(700, 670);
+ctx.stroke();
+ctx.fill();
+
 //Montanha 2 > direita p esquerda
-ctx.fillStyle = "black";
+ctx.fillStyle = "red";
 ctx.beginPath();
 ctx.moveTo(1300, 800);
 ctx.lineTo(1100, 300);
@@ -27,34 +37,36 @@ ctx.lineTo(700, 1100);
 ctx.stroke();
 ctx.fill();
 
-//Montanha 3
-ctx.fillStyle = "black";
-ctx.beginPath();
-ctx.moveTo(950, 400);
-ctx.lineTo(1000, 500);
-ctx.lineTo(900, 650);
-ctx.stroke();
-
 //Montanha 4
+ctx.fillStyle = 'black';
+ctx.beginPath();
 ctx.moveTo(850, 450);
 ctx.lineTo(700, 670);
-ctx.moveTo(850, 450);
-ctx.lineTo(900, 480);
+ctx.lineTo(850, 450);
+ctx.lineTo(900, 670);
+ctx.lineTo(700, 670);
 ctx.stroke();
+ctx.fill();
 
-// Montanha 1
+// Montanha 1 ESQUERDA
+ctx.fillStyle = 'black';
+ctx.beginPath();
 ctx.moveTo(130, 150);
-ctx.lineTo(0, 400);
-ctx.moveTo(180, 240);
 ctx.lineTo(130, 150);
+ctx.lineTo(220, 670);
+ctx.lineTo(-250, 670);
 ctx.stroke();
+ctx.fill();
 
 //Montanha a esquerda 2
+ctx.fillStyle = 'white';
+ctx.beginPath();
 ctx.moveTo(0, 600);
 ctx.lineTo(200, 200);
-ctx.moveTo(200, 200);
 ctx.lineTo(450, 670);
+ctx.lineTo(-450, 670);
 ctx.stroke();
+ctx.fill();
 
 //Linha 
 ctx.moveTo(0, 670);
@@ -70,6 +82,5 @@ ctx.lineTo(100, 730);
 //2º Estrada
 ctx.moveTo(700, 730);
 ctx.lineTo(300, 730);
-ctx.stroke();
 ctx.strokeStyle = "white";
 ctx.stroke(); 
