@@ -12,7 +12,7 @@ The primary purpose of the system was to create a visually pleasing scene using 
 Project Proposed by Professor Aline Firmino Brito, Instructor at Etec Professor Basilides de Godoy
 
 ## Authors
-- [@Carlos Martins](https://github.com/Davignz)
+- [@Carlos Martins](https://github.com/MartinsCarlos111)
 - [@Davi Gonzaga](https://github.com/Davignz)
 
 ## Mentor
